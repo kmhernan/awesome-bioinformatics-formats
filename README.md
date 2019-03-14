@@ -34,7 +34,8 @@ Formats associated with storing genomic intervals (e.g., contig, start, stop, st
 * [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1) - Browser Extensible Data format provides a flexible way to define the data lines that are displayed in an annotation track.
 * [bedGraph](https://genome.ucsc.edu/goldenPath/help/bedgraph.html) - The bedGraph format allows display of continuous-valued data in track format.
 * [bigBed](https://genome.ucsc.edu/goldenPath/help/bigBed.html) - Binary and indexed form of [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1).
-* [bigWig](https://genome.ucsc.edu/goldenPath/help/bigWig.html) - The bigWig format is useful for dense, continuous data and is a binar form of [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html).
+* [bigWig](https://genome.ucsc.edu/goldenPath/help/bigWig.html) - The bigWig format is useful for dense, continuous data and is a binary form of [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html).
+* [Genomedata](https://academic.oup.com/bioinformatics/article/26/11/1458/203307) - a format for efficient storage of multiple tracks of numeric data anchored to a genome.
 * [narrowPeak](https://genome.ucsc.edu/FAQ/FAQformat.html#format12) - This format is used to provide called peaks of signal enrichment based on pooled, normalized (interpreted) data. It is a BED6+4 format.
 * [tabix](http://samtools.github.io/hts-specs/tabix.pdf) - An *index* file format for genomic intervals (can be used on bed, gtf, vcf, etc).
 * [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html) - ASCII format for dense, continuous data.

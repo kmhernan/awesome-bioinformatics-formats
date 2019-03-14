@@ -50,11 +50,20 @@ Formats associated with storing genomic intervals (e.g., contig, start, stop, st
 * [segmentation file](https://software.broadinstitute.org/software/igv/SEG) - A tab-delimited text file that lists loci and associated numeric values associated with copy number.
 * [tabix](http://samtools.github.io/hts-specs/tabix.pdf) - An *index* file format for genomic intervals (can be used on bed, gtf, vcf, etc).
 
+### Genomic Features
+
+Formats for describing genomic features (e.g., gene models, etc.).
+
+* [genePred](http://genome.ucsc.edu/FAQ/FAQformat#format9) - a table format commonly used for gene prediction tracks.
+* [GFF](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md) - The general feature format is a file format used for describing genes and other features of DNA, RNA and protein sequences.
+* [GTF](http://mblab.wustl.edu/GTF22.html) - GTF stands for Gene transfer format. It borrows from [GFF](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md), but has additional structure that warrants a separate definition and format name.
+
 ### Genotype Data
 
 Formats associated with genotype data.
 
 * [BCF](http://samtools.github.io/hts-specs/BCFv2_qref.pdf) - Binary and compressed [VCF](http://samtools.github.io/hts-specs/VCFv4.3.pdf) format.
+* [GVF](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gvf.md) - The Genome Variation Format (GVF) is a very simple file format for describing sequence_alteration features at nucleotide resolution relative to a reference genome.
 * [VCF](http://samtools.github.io/hts-specs/VCFv4.3.pdf) - Variant Call Format.
 * [oxford-gen](https://www.cog-genomics.org/plink2/formats#gen) - Native text genotype file format for Oxford statistical genetics tools, such as IMPUTE2 and SNPTEST.
 * [plink-bed](https://www.cog-genomics.org/plink2/formats#bed) - PLINK binary biallelic genotype table.

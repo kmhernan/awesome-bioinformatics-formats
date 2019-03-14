@@ -15,6 +15,7 @@ Please feel free to [contribute](https://github.com/kmhernan/awesome-bioinformat
   - [Genotype Data](#genotype-data)
   - [Unaligned Sequencing Data](#unaligned-sequencing-data)
   - [Aligned Sequencing Data](#aligned-sequencing-data)
+  - [Protein Structural Data](#protein-structural-data)
   - [Miscellaneous](#miscellaneous)
 - [Review Papers and Blogs](#review-papers-and-blogs)
 
@@ -88,6 +89,10 @@ Formats associated with storing aligned sequencing data.
 * [CRAM](http://samtools.github.io/hts-specs/CRAMv3.pdf) - Further lossless compression of [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) format.
 * [MAF](https://genome.ucsc.edu/FAQ/FAQformat.html#format5) - The multiple alignment format stores a series of multiple alignments in a format that is easy to parse and relatively easy to read. 
 * [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) - The Sequence Alignment/Map format.
+
+### Protein Structural Data
+
+* [PDB](http://www.wwpdb.org/documentation/file-format) - The Protein Data Bank (PDB) format provides a standard representation for macromolecular structure data derived from X-ray diffraction and NMR studies. This representation was created in the 1970's and a large amount of software using it has been written. 
 
 ### Miscellaneous 
 

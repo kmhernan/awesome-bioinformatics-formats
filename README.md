@@ -37,26 +37,26 @@ format is not available, then it is a great opportunity to contribute to EDAM as
 
 Formats not specific to bioinformatics that should be considered.
 
-* [HDF5](https://portal.hdfgroup.org/display/support) - [edam:format_3590](http://edamontology.org/format_3590) HDF5 is a data model, library, and file format for storing and managing data.
-* [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) - [edam:format_3650](http://edamontology.org/format_3650) Network Common Data Form is a set of interfaces for array-oriented data access and a freely distributed collection of data access libraries for C, Fortran, C++, Java, and other languages.
-* [SQLite](https://sqlite.org/index.html) - [edam:format_3621](http://edamontology.org/format_3621) SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
+* [HDF5](https://portal.hdfgroup.org/display/support) - [[edam:format_3590](http://edamontology.org/format_3590)] HDF5 is a data model, library, and file format for storing and managing data.
+* [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) - [[edam:format_3650](http://edamontology.org/format_3650)] Network Common Data Form is a set of interfaces for array-oriented data access and a freely distributed collection of data access libraries for C, Fortran, C++, Java, and other languages.
+* [SQLite](https://sqlite.org/index.html) - [[edam:format_3621](http://edamontology.org/format_3621)] SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
 * [tiledb](https://tiledb.io/) - TileDB manages massive dense and sparse multi-dimensional array data that frequently arise in important scientific applications.
 
 ### Dense Genomic Data
 
 Formats associated with storing dense functional genomics data.
 
-* [bigWig](https://genome.ucsc.edu/goldenPath/help/bigWig.html) - [edam:format_3006](http://edamontology.org/format_3006) The bigWig format is useful for dense, continuous data and is a binary form of [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html).
+* [bigWig](https://genome.ucsc.edu/goldenPath/help/bigWig.html) - [[edam:format_3006](http://edamontology.org/format_3006)] The bigWig format is useful for dense, continuous data and is a binary form of [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html).
 * [Genomedata](https://academic.oup.com/bioinformatics/article/26/11/1458/203307) - a format for efficient storage of multiple tracks of numeric data anchored to a genome.
 * [GenomicsDB](https://www.genomicsdb.org/) - GenomicsDB is an open sourced library and tools with a focus on optimizing sparse array storage specifically for genomic data.
-* [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html) - [edam:format_3005](http://edamontology.org/format_3005) ASCII format for dense, continuous data.
+* [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html) - [[edam:format_3005](http://edamontology.org/format_3005)] ASCII format for dense, continuous data.
 
 ### Genomic Intervals
 
 Formats associated with storing genomic intervals (e.g., contig, start, stop, strand).
 
-* [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1) - [edam:format_3003](http://edamontology.org/format_3003) Browser Extensible Data format provides a flexible way to define the data lines that are displayed in an annotation track.
-* [bedGraph](https://genome.ucsc.edu/goldenPath/help/bedgraph.html) - [edam:format_3583](http://edamontology.org/format_3583) The bedGraph format allows display of continuous-valued data in track format.
+* [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1) - [[edam:format_3003](http://edamontology.org/format_3003)] Browser Extensible Data format provides a flexible way to define the data lines that are displayed in an annotation track.
+* [bedGraph](https://genome.ucsc.edu/goldenPath/help/bedgraph.html) - [[edam:format_3583](http://edamontology.org/format_3583)] The bedGraph format allows display of continuous-valued data in track format.
 * [bigBed](https://genome.ucsc.edu/goldenPath/help/bigBed.html) - Binary and indexed form of [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1).
 * [interval list](https://gatkforums.broadinstitute.org/gatk/discussion/1319/collected-faqs-about-interval-lists) - The intervals are given in the form `<chr> <start> <stop> + <target_name>`, with fields separated by tabs, and the coordinates are 1-based (first position in the genome is position 1, not position 0).
 * [narrowPeak](https://genome.ucsc.edu/FAQ/FAQformat.html#format12) - This format is used to provide called peaks of signal enrichment based on pooled, normalized (interpreted) data. It is a BED6+4 format.

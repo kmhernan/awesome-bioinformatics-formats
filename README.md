@@ -9,6 +9,7 @@ Please feel free to [contribute](https://github.com/kmhernan/awesome-bioinformat
 
 - [Formats](#formats)
   - [General](#general)
+  - [Dense Genomic Data](#dense-genomic-data)
   - [Genomic Intervals](#genomic-intervals)
   - [Genotype Data](#genotype-data)
   - [Unaligned Sequencing Data](#unaligned-sequencing-data)
@@ -28,6 +29,15 @@ Formats not specific to bioinformatics that should be considered.
 * [SQLite](https://sqlite.org/index.html) - SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
 * [tiledb](https://tiledb.io/) - TileDB manages massive dense and sparse multi-dimensional array data that frequently arise in important scientific applications.
 
+### Dense Genomic Data
+
+Formats associated with storing dense functional genomics data.
+
+* [bigWig](https://genome.ucsc.edu/goldenPath/help/bigWig.html) - The bigWig format is useful for dense, continuous data and is a binary form of [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html).
+* [Genomedata](https://academic.oup.com/bioinformatics/article/26/11/1458/203307) - a format for efficient storage of multiple tracks of numeric data anchored to a genome.
+* [GenomicsDB](https://www.genomicsdb.org/) - GenomicsDB is an open sourced library and tools with a focus on optimizing sparse array storage specifically for genomic data.
+* [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html) - ASCII format for dense, continuous data.
+
 ### Genomic Intervals
 
 Formats associated with storing genomic intervals (e.g., contig, start, stop, strand).
@@ -35,13 +45,8 @@ Formats associated with storing genomic intervals (e.g., contig, start, stop, st
 * [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1) - Browser Extensible Data format provides a flexible way to define the data lines that are displayed in an annotation track.
 * [bedGraph](https://genome.ucsc.edu/goldenPath/help/bedgraph.html) - The bedGraph format allows display of continuous-valued data in track format.
 * [bigBed](https://genome.ucsc.edu/goldenPath/help/bigBed.html) - Binary and indexed form of [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1).
-* [bigWig](https://genome.ucsc.edu/goldenPath/help/bigWig.html) - The bigWig format is useful for dense, continuous data and is a binary form of [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html).
-* [Genomedata](https://academic.oup.com/bioinformatics/article/26/11/1458/203307) - a format for efficient storage of multiple tracks of numeric data anchored to a genome.
-* [GenomicsDB](https://www.genomicsdb.org/) - GenomicsDB is an open sourced library and tools with a focus on optimizing sparse array storage specifically for genomic data.
 * [narrowPeak](https://genome.ucsc.edu/FAQ/FAQformat.html#format12) - This format is used to provide called peaks of signal enrichment based on pooled, normalized (interpreted) data. It is a BED6+4 format.
 * [tabix](http://samtools.github.io/hts-specs/tabix.pdf) - An *index* file format for genomic intervals (can be used on bed, gtf, vcf, etc).
-* [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html) - ASCII format for dense, continuous data.
-
 
 ### Genotype Data
 

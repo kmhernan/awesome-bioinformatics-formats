@@ -11,6 +11,7 @@ Please feel free to [contribute](https://github.com/kmhernan/awesome-bioinformat
   - [General](#general)
   - [Dense Genomic Data](#dense-genomic-data)
   - [Genomic Intervals](#genomic-intervals)
+  - [Genomic Features](#genomic-features)
   - [Genotype Data](#genotype-data)
   - [Unaligned Sequencing Data](#unaligned-sequencing-data)
   - [Aligned Sequencing Data](#aligned-sequencing-data)

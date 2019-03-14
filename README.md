@@ -92,6 +92,7 @@ Formats associated with storing aligned sequencing data.
 
 ### Molecular Structural Data
 
+* [CTfile](http://www.3dsbiovia.com/products/collaborative-science/biovia-draw/ctfile-no-fee.html) - The CTfile Formats document fully describes the formats for CTfiles (chemical table files) including: Molfiles, RGfiles, Rxnfiles, SDfiles, RDfiles, XDfiles.
 * [PDB](http://www.wwpdb.org/documentation/file-format) - The Protein Data Bank (PDB) format provides a standard representation for macromolecular structure data derived from X-ray diffraction and NMR studies. This representation was created in the 1970's and a large amount of software using it has been written. 
 
 ### Miscellaneous 

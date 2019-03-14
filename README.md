@@ -14,6 +14,7 @@ Please feel free to [contribute](https://github.com/kmhernan/awesome-bioinformat
   - [Genotype Data](#genotype-data)
   - [Unaligned Sequencing Data](#unaligned-sequencing-data)
   - [Aligned Sequencing Data](#aligned-sequencing-data)
+  - [Miscellaneous](#miscellaneous)
 - [Review Papers and Blogs](#review-papers-and-blogs)
 
 ----
@@ -71,6 +72,12 @@ Formats associated with storing aligned sequencing data.
 * [BAM](http://samtools.github.io/hts-specs/SAMv1.pdf) - Binary [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) format. _note: it is becoming more common to store unaligned reads in a BAM called a uBAM_
 * [CRAM](http://samtools.github.io/hts-specs/CRAMv3.pdf) - Further lossless compression of [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) format.
 * [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) - The Sequence Alignment/Map format.
+
+### Miscellaneous 
+
+Formats that currently don't have a good section to place them yet (but still very relevant).
+
+* [BIOM](http://biom-format.org/) - The Biological Observation Matrix (BIOM) file format (canonically pronounced biome) is designed to be a general-use format for representing biological sample by observation contingency tables.
 
 ## Review Papers and Blogs
 

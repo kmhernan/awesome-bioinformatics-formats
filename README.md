@@ -84,6 +84,7 @@ Formats associated with genotype data.
 * [oxford-gen](https://www.cog-genomics.org/plink2/formats#gen) - [[edam:format_3812](http://edamontology.org/format_3812)] Native text genotype file format for Oxford statistical genetics tools, such as IMPUTE2 and SNPTEST.
 * [pileup](http://samtools.sourceforge.net/pileup.shtml) - [[edam:format_3015](http://edamontology.org/format_3015)] Describes the base-pair information at each chromosomal position. This format facilitates SNP/indel calling and brief alignment viewing by eyes.
 * [plink-bed](https://www.cog-genomics.org/plink2/formats#bed) - PLINK binary biallelic genotype table.
+* [plink-ped](https://www.cog-genomics.org/plink2/formats#ped) - [[edam:format_3288](http://edamontology.org/format_3288)] PLINK plain-text genotype format. Mostly has been replaced by bed/bim/fam, but is useful if someone wants to actually look at the SNPs in plain-text since Plink bed is in binary, and also wants to retain more information than from a VCF (eg. additional individual information).
 
 ### Unaligned Sequencing Data
 

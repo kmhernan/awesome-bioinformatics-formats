@@ -71,6 +71,7 @@ Formats associated with storing aligned sequencing data.
 
 * [BAM](http://samtools.github.io/hts-specs/SAMv1.pdf) - Binary [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) format. _note: it is becoming more common to store unaligned reads in a BAM called a uBAM_
 * [CRAM](http://samtools.github.io/hts-specs/CRAMv3.pdf) - Further lossless compression of [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) format.
+* [MAF](https://genome.ucsc.edu/FAQ/FAQformat.html#format5) - The multiple alignment format stores a series of multiple alignments in a format that is easy to parse and relatively easy to read. 
 * [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) - The Sequence Alignment/Map format.
 
 ### Miscellaneous 

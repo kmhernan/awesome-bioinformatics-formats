@@ -67,6 +67,7 @@ Formats associated with genotype data.
 * [GVF](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gvf.md) - The Genome Variation Format (GVF) is a very simple file format for describing sequence_alteration features at nucleotide resolution relative to a reference genome.
 * [VCF](http://samtools.github.io/hts-specs/VCFv4.3.pdf) - Variant Call Format.
 * [oxford-gen](https://www.cog-genomics.org/plink2/formats#gen) - Native text genotype file format for Oxford statistical genetics tools, such as IMPUTE2 and SNPTEST.
+* [pileup](http://samtools.sourceforge.net/pileup.shtml) - Describes the base-pair information at each chromosomal position. This format facilitates SNP/indel calling and brief alignment viewing by eyes.
 * [plink-bed](https://www.cog-genomics.org/plink2/formats#bed) - PLINK binary biallelic genotype table.
 
 ### Unaligned Sequencing Data
@@ -81,6 +82,7 @@ Formats associated with storing unaligned sequencing data.
 Formats associated with storing aligned sequencing data.
 
 * [BAM](http://samtools.github.io/hts-specs/SAMv1.pdf) - Binary [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) format. _note: it is becoming more common to store unaligned reads in a BAM called a uBAM_
+* [CALF](http://www.phrap.org/phredphrap/calf.pdf) - The Compact ALignment Format records the base qualities and mapping qualities of the aligned reads, and unaligned reads data.
 * [CRAM](http://samtools.github.io/hts-specs/CRAMv3.pdf) - Further lossless compression of [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) format.
 * [MAF](https://genome.ucsc.edu/FAQ/FAQformat.html#format5) - The multiple alignment format stores a series of multiple alignments in a format that is easy to parse and relatively easy to read. 
 * [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) - The Sequence Alignment/Map format.

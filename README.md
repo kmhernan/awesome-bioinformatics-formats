@@ -47,6 +47,7 @@ Formats associated with storing genomic intervals (e.g., contig, start, stop, st
 * [bedGraph](https://genome.ucsc.edu/goldenPath/help/bedgraph.html) - The bedGraph format allows display of continuous-valued data in track format.
 * [bigBed](https://genome.ucsc.edu/goldenPath/help/bigBed.html) - Binary and indexed form of [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1).
 * [narrowPeak](https://genome.ucsc.edu/FAQ/FAQformat.html#format12) - This format is used to provide called peaks of signal enrichment based on pooled, normalized (interpreted) data. It is a BED6+4 format.
+* [segmentation file](https://software.broadinstitute.org/software/igv/SEG) - A tab-delimited text file that lists loci and associated numeric values associated with copy number.
 * [tabix](http://samtools.github.io/hts-specs/tabix.pdf) - An *index* file format for genomic intervals (can be used on bed, gtf, vcf, etc).
 
 ### Genotype Data

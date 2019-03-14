@@ -5,6 +5,16 @@ include formats not specific to bioinformatics, but should be considered for bio
 
 Please feel free to [contribute](https://github.com/kmhernan/awesome-bioinformatics-formats/blob/master/CONTRIBUTING.md).
 
+# EDAM
+
+> EDAM is a comprehensive ontology of well-established, familiar concepts that are prevalent within bioinformatics and computational biology, including types of data and data identifiers, data formats, operations and topics. EDAM provides a set of concepts with preferred terms and synonyms, definitions, and some additional information - organised into a simple and intuitive hierarchy for convenient use.
+
+[EDAM](http://edamontology.org/page) is a more exhaustive and established ontology for bioinformatics data 
+including formats. This is not intended to be a replacement or contain as much information as EDAM, please refer
+to their great resources including this [explorable ontology](https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Fformat_2350)
+for more information. We ask that where possible you link to the EDAM ontology for any formats your contribute. If your
+format is not available, then it is a great opportunity to contribute to EDAM as well.
+
 **Table of Contents**
 
 - [Formats](#formats)
@@ -27,26 +37,26 @@ Please feel free to [contribute](https://github.com/kmhernan/awesome-bioinformat
 
 Formats not specific to bioinformatics that should be considered.
 
-* [HDF5](https://portal.hdfgroup.org/display/support) - HDF5 is a data model, library, and file format for storing and managing data. It supports an unlimited variety of datatypes, and is designed for flexible and efficient I/O and for high volume and complex data. HDF5 is portable and is extensible, allowing applications to evolve in their use of HDF5. The HDF5 Technology suite includes tools and applications for managing, manipulating, viewing, and analyzing data in the HDF5 format.
-* [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) - Network Common Data Form is a set of interfaces for array-oriented data access and a freely distributed collection of data access libraries for C, Fortran, C++, Java, and other languages.
-* [SQLite](https://sqlite.org/index.html) - SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
+* [HDF5](https://portal.hdfgroup.org/display/support) - [edam:format_3590](http://edamontology.org/format_3590) HDF5 is a data model, library, and file format for storing and managing data.
+* [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) - [edam:format_3650](http://edamontology.org/format_3650) Network Common Data Form is a set of interfaces for array-oriented data access and a freely distributed collection of data access libraries for C, Fortran, C++, Java, and other languages.
+* [SQLite](https://sqlite.org/index.html) - [edam:format_3621](http://edamontology.org/format_3621) SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
 * [tiledb](https://tiledb.io/) - TileDB manages massive dense and sparse multi-dimensional array data that frequently arise in important scientific applications.
 
 ### Dense Genomic Data
 
 Formats associated with storing dense functional genomics data.
 
-* [bigWig](https://genome.ucsc.edu/goldenPath/help/bigWig.html) - The bigWig format is useful for dense, continuous data and is a binary form of [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html).
+* [bigWig](https://genome.ucsc.edu/goldenPath/help/bigWig.html) - [edam:format_3006](http://edamontology.org/format_3006) The bigWig format is useful for dense, continuous data and is a binary form of [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html).
 * [Genomedata](https://academic.oup.com/bioinformatics/article/26/11/1458/203307) - a format for efficient storage of multiple tracks of numeric data anchored to a genome.
 * [GenomicsDB](https://www.genomicsdb.org/) - GenomicsDB is an open sourced library and tools with a focus on optimizing sparse array storage specifically for genomic data.
-* [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html) - ASCII format for dense, continuous data.
+* [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html) - [edam:format_3005](http://edamontology.org/format_3005) ASCII format for dense, continuous data.
 
 ### Genomic Intervals
 
 Formats associated with storing genomic intervals (e.g., contig, start, stop, strand).
 
-* [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1) - Browser Extensible Data format provides a flexible way to define the data lines that are displayed in an annotation track.
-* [bedGraph](https://genome.ucsc.edu/goldenPath/help/bedgraph.html) - The bedGraph format allows display of continuous-valued data in track format.
+* [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1) - [edam:format_3003](http://edamontology.org/format_3003) Browser Extensible Data format provides a flexible way to define the data lines that are displayed in an annotation track.
+* [bedGraph](https://genome.ucsc.edu/goldenPath/help/bedgraph.html) - [edam:format_3583](http://edamontology.org/format_3583) The bedGraph format allows display of continuous-valued data in track format.
 * [bigBed](https://genome.ucsc.edu/goldenPath/help/bigBed.html) - Binary and indexed form of [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1).
 * [interval list](https://gatkforums.broadinstitute.org/gatk/discussion/1319/collected-faqs-about-interval-lists) - The intervals are given in the form `<chr> <start> <stop> + <target_name>`, with fields separated by tabs, and the coordinates are 1-based (first position in the genome is position 1, not position 0).
 * [narrowPeak](https://genome.ucsc.edu/FAQ/FAQformat.html#format12) - This format is used to provide called peaks of signal enrichment based on pooled, normalized (interpreted) data. It is a BED6+4 format.

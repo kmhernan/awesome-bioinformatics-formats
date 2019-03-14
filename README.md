@@ -8,12 +8,11 @@ Please feel free to [contribute](https://github.com/kmhernan/awesome-bioinformat
 **Table of Contents**
 
 - [Formats](#formats)
+  - [General](#general)
   - [Genomic Intervals](#genomic-intervals)
   - [Genotype Data](#genotype-data)
-  - [Sequencing Data](#sequencing-data)
-- [Review Papers and Blogs](#genomic-intervals)
-- [Genotype Data](#genotype-data)
-- [Sequencing Data](#sequencing-data)
+  - [Unaligned Sequencing Data](#unaligned-sequencing-data)
+  - [Aligned Sequencing Data](#aligned-sequencing-data)
 - [Review Papers and Blogs](#review-papers-and-blogs)
 
 ----
@@ -36,6 +35,7 @@ Formats associated with storing genomic intervals (e.g., contig, start, stop, st
 * [bigBed](https://genome.ucsc.edu/goldenPath/help/bigBed.html) - Binary and indexed form of [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1)
 * [bigWig](https://genome.ucsc.edu/goldenPath/help/bigWig.html) - The bigWig format is useful for dense, continuous data and is a binar form of [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html).
 * [narrowPeak](https://genome.ucsc.edu/FAQ/FAQformat.html#format12) - This format is used to provide called peaks of signal enrichment based on pooled, normalized (interpreted) data. It is a BED6+4 format.
+* [tabix](http://samtools.github.io/hts-specs/tabix.pdf) - An *index* file format for genomic intervals (can be used on bed, gtf, vcf, etc)
 * [wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html) - ASCII format for dense, continuous data.
 
 
@@ -43,10 +43,27 @@ Formats associated with storing genomic intervals (e.g., contig, start, stop, st
 
 Formats associated with genotype data.
 
-### Sequencing Data
+* [BCF](http://samtools.github.io/hts-specs/BCFv2_qref.pdf) - Binary and compressed [VCF](http://samtools.github.io/hts-specs/VCFv4.3.pdf) format
+* [VCF](http://samtools.github.io/hts-specs/VCFv4.3.pdf) - Variant Call Format
 
-Formats associated with storing sequencing data.
+### Unaligned Sequencing Data
+
+Formats associated with storing unaligned sequencing data.
+
+* [FASTA](https://en.wikipedia.org/wiki/FASTA_format) - ASCII format for storing nucleotide/amino acid sequences
+* [FASTQ](https://academic.oup.com/nar/article/38/6/1767/3112533) - Designed as a replacement for FASTA, combining the sequence and quality information in the same file.
+
+### Aligned Sequencing Data
+
+Formats associated with storing aligned sequencing data.
+
+* [BAM](http://samtools.github.io/hts-specs/SAMv1.pdf) - Binary [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) format. _note: it is becoming more common to store unaligned reads in a BAM called a uBAM_
+* [CRAM](http://samtools.github.io/hts-specs/CRAMv3.pdf) - Further lossless compression of [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) format
+* [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) - The Sequence Alignment/Map format
 
 ## Review Papers and Blogs
 
 This section contains links to relevant review papers and blog posts about bioinformatics formats.
+
+* [hts-specs](http://samtools.github.io/hts-specs/) - From the great Heng Li.
+

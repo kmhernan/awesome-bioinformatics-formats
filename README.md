@@ -5,7 +5,7 @@ include formats not specific to bioinformatics, but should be considered for bio
 
 Please feel free to [contribute](https://github.com/kmhernan/awesome-bioinformatics-formats/blob/master/CONTRIBUTING.md).
 
-# EDAM
+## EDAM
 
 > EDAM is a comprehensive ontology of well-established, familiar concepts that are prevalent within bioinformatics and computational biology, including types of data and data identifiers, data formats, operations and topics. EDAM provides a set of concepts with preferred terms and synonyms, definitions, and some additional information - organised into a simple and intuitive hierarchy for convenient use.
 
@@ -15,7 +15,8 @@ to their great resources including this [explorable ontology](https://www.ebi.ac
 for more information. We ask that where possible you link to the EDAM ontology for any formats your contribute. If your
 format is not available, then it is a great opportunity to contribute to EDAM as well.
 
-**Table of Contents**
+
+# Table of Contents
 
 - [Formats](#formats)
   - [General](#general)
@@ -28,6 +29,7 @@ format is not available, then it is a great opportunity to contribute to EDAM as
   - [Molecular Structural Data](#molecular-structural-data)
   - [Miscellaneous](#miscellaneous)
 - [Review Papers and Blogs](#review-papers-and-blogs)
+- [License](#license)
 
 ----
 
@@ -57,63 +59,73 @@ Formats associated with storing genomic intervals (e.g., contig, start, stop, st
 
 * [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1) - [[edam:format_3003](http://edamontology.org/format_3003)] Browser Extensible Data format provides a flexible way to define the data lines that are displayed in an annotation track.
 * [bedGraph](https://genome.ucsc.edu/goldenPath/help/bedgraph.html) - [[edam:format_3583](http://edamontology.org/format_3583)] The bedGraph format allows display of continuous-valued data in track format.
-* [bigBed](https://genome.ucsc.edu/goldenPath/help/bigBed.html) - Binary and indexed form of [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1).
+* [bigBed](https://genome.ucsc.edu/goldenPath/help/bigBed.html) - [[edam:format_3004](http://edamontology.org/format_3004)] Binary and indexed form of [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1).
 * [interval list](https://gatkforums.broadinstitute.org/gatk/discussion/1319/collected-faqs-about-interval-lists) - The intervals are given in the form `<chr> <start> <stop> + <target_name>`, with fields separated by tabs, and the coordinates are 1-based (first position in the genome is position 1, not position 0).
-* [narrowPeak](https://genome.ucsc.edu/FAQ/FAQformat.html#format12) - This format is used to provide called peaks of signal enrichment based on pooled, normalized (interpreted) data. It is a BED6+4 format.
+* [narrowPeak](https://genome.ucsc.edu/FAQ/FAQformat.html#format12) - [[edam:format_3613](http://edamontology.org/format_3613)] This format is used to provide called peaks of signal enrichment based on pooled, normalized (interpreted) data. It is a BED6+4 format.
 * [segmentation file](https://software.broadinstitute.org/software/igv/SEG) - A tab-delimited text file that lists loci and associated numeric values associated with copy number.
-* [tabix](http://samtools.github.io/hts-specs/tabix.pdf) - An *index* file format for genomic intervals (can be used on bed, gtf, vcf, etc).
+* [tabix](http://samtools.github.io/hts-specs/tabix.pdf) - [[edam:format_3616](http://edamontology.org/format_3616)] An *index* file format for genomic intervals (can be used on bed, gtf, vcf, etc).
 
 ### Genomic Features
 
 Formats for describing genomic features (e.g., gene models, etc.).
 
-* [genePred](http://genome.ucsc.edu/FAQ/FAQformat#format9) - a table format commonly used for gene prediction tracks.
-* [GFF](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md) - The general feature format is a file format used for describing genes and other features of DNA, RNA and protein sequences.
-* [GTF](http://mblab.wustl.edu/GTF22.html) - GTF stands for Gene transfer format. It borrows from [GFF](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md), but has additional structure that warrants a separate definition and format name.
+* [genePred](http://genome.ucsc.edu/FAQ/FAQformat#format9) - [[edam:format_3011](http://edamontology.org/format_3011)] a table format commonly used for gene prediction tracks.
+* [GFF2](http://gmod.org/wiki/GFF2) - [[edam:format_1974](http://edamontology.org/format_1974)] The general feature format is a file format used for describing genes and other features of DNA, RNA and protein sequences version 2.
+* [GFF3](http://gmod.org/wiki/GFF3) - [[edam:format_1975](http://edamontology.org/format_1975)] The general feature format is a file format used for describing genes and other features of DNA, RNA and protein sequences version 3.
+* [GTF](http://mblab.wustl.edu/GTF22.html) - [[edam:format_2306](http://edamontology.org/format_2306)] GTF stands for Gene transfer format. It borrows from [GFF2](http://gmod.org/wiki/GFF2), but has additional structure that warrants a separate definition and format name.
 
 ### Genotype Data
 
 Formats associated with genotype data.
 
-* [BCF](http://samtools.github.io/hts-specs/BCFv2_qref.pdf) - Binary and compressed [VCF](http://samtools.github.io/hts-specs/VCFv4.3.pdf) format.
+* [BCF](http://samtools.github.io/hts-specs/BCFv2_qref.pdf) - [[edam:format_3020](http://edamontology.org/format_3020)] Binary and compressed [VCF](http://samtools.github.io/hts-specs/VCFv4.3.pdf) format.
 * [GDS](http://corearray.sourceforge.net/) - Genomic Data Structure is a storage format for bioinformatics data similar to [NetCDF](https://www.unidata.ucar.edu/software/netcdf/). 
-* [GVF](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gvf.md) - The Genome Variation Format (GVF) is a very simple file format for describing sequence_alteration features at nucleotide resolution relative to a reference genome.
-* [VCF](http://samtools.github.io/hts-specs/VCFv4.3.pdf) - Variant Call Format.
-* [oxford-gen](https://www.cog-genomics.org/plink2/formats#gen) - Native text genotype file format for Oxford statistical genetics tools, such as IMPUTE2 and SNPTEST.
-* [pileup](http://samtools.sourceforge.net/pileup.shtml) - Describes the base-pair information at each chromosomal position. This format facilitates SNP/indel calling and brief alignment viewing by eyes.
+* [GVF](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gvf.md) - [[edam:format_3019](http://edamontology.org/format_3019)] The Genome Variation Format (GVF) is a very simple file format for describing sequence_alteration features at nucleotide resolution relative to a reference genome.
+* [MAF](https://software.broadinstitute.org/software/igv/MutationAnnotationFormat) - A Mutation Annotation Format (MAF) file (.maf) is a tab-delimited text file that lists mutations.
+* [oxford-bgen](https://www.well.ox.ac.uk/~gav/bgen_format/index.html) - Binary version of the native [Oxford gen format](https://www.cog-genomics.org/plink2/formats#gen). Operations on bgen files are generally faster and more descriptive than on plain gen files, and the file size of bgen files is also smaller -- UK Biobank genotypes are in bgen format. Latest bgen version is 1.3.
+* [oxford-gen](https://www.cog-genomics.org/plink2/formats#gen) - [[edam:format_3812](http://edamontology.org/format_3812)] Native text genotype file format for Oxford statistical genetics tools, such as IMPUTE2 and SNPTEST.
+* [pileup](http://samtools.sourceforge.net/pileup.shtml) - [[edam:format_3015](http://edamontology.org/format_3015)] Describes the base-pair information at each chromosomal position. This format facilitates SNP/indel calling and brief alignment viewing by eyes.
 * [plink-bed](https://www.cog-genomics.org/plink2/formats#bed) - PLINK binary biallelic genotype table.
+* [plink-ped](https://www.cog-genomics.org/plink2/formats#ped) - [[edam:format_3288](http://edamontology.org/format_3288)] PLINK plain-text genotype format. Mostly has been replaced by bed/bim/fam, but is useful if someone wants to actually look at the SNPs in plain-text since Plink bed is in binary, and also wants to retain more information than from a VCF (eg. additional individual information).
+* [VCF](http://samtools.github.io/hts-specs/VCFv4.3.pdf) - [[edam:format_3016](http://edamontology.org/format_3016)] Variant Call Format.
 
 ### Unaligned Sequencing Data
 
 Formats associated with storing unaligned sequencing data.
 
-* [FASTA](https://en.wikipedia.org/wiki/FASTA_format) - ASCII format for storing nucleotide/amino acid sequences.
-* [FASTQ](https://academic.oup.com/nar/article/38/6/1767/3112533) - Designed as a replacement for FASTA, combining the sequence and quality information in the same file.
+* [FASTA](https://en.wikipedia.org/wiki/FASTA_format) - [[edam:format_1929](http://edamontology.org/format_1929)] ASCII format for storing nucleotide/amino acid sequences.
+* [FASTQ](https://academic.oup.com/nar/article/38/6/1767/3112533) - [[edam:format_1930](http://edamontology.org/format_1930)] Designed as a replacement for FASTA, combining the sequence and quality information in the same file.
 
 ### Aligned Sequencing Data
 
 Formats associated with storing aligned sequencing data.
 
-* [BAM](http://samtools.github.io/hts-specs/SAMv1.pdf) - Binary [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) format. _note: it is becoming more common to store unaligned reads in a BAM called a uBAM_
+* [BAM](http://samtools.github.io/hts-specs/SAMv1.pdf) - [[edam:format_2572](http://edamontology.org/format_2572)] Binary [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) format. _note: it is becoming more common to store unaligned reads in a BAM called a uBAM_
 * [CALF](http://www.phrap.org/phredphrap/calf.pdf) - The Compact ALignment Format records the base qualities and mapping qualities of the aligned reads, and unaligned reads data.
-* [CRAM](http://samtools.github.io/hts-specs/CRAMv3.pdf) - Further lossless compression of [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) format.
-* [MAF](https://genome.ucsc.edu/FAQ/FAQformat.html#format5) - The multiple alignment format stores a series of multiple alignments in a format that is easy to parse and relatively easy to read. 
-* [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) - The Sequence Alignment/Map format.
+* [CRAM](http://samtools.github.io/hts-specs/CRAMv3.pdf) - [[edam:format_3462](http://edamontology.org/format_3462)] Further lossless compression of [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) format.
+* [MAF](https://genome.ucsc.edu/FAQ/FAQformat.html#format5) - [[edam:format_3008](http://edamontology.org/format_3008)] The multiple alignment format stores a series of multiple alignments in a format that is easy to parse and relatively easy to read. 
+* [SAM](http://samtools.github.io/hts-specs/SAMv1.pdf) - [[edam:format_2573](http://edamontology.org/format_2573)] The Sequence Alignment/Map format.
 
 ### Molecular Structural Data
 
 * [CTfile](http://www.3dsbiovia.com/products/collaborative-science/biovia-draw/ctfile-no-fee.html) - The CTfile Formats document fully describes the formats for CTfiles (chemical table files) including: Molfiles, RGfiles, Rxnfiles, SDfiles, RDfiles, XDfiles.
-* [PDB](http://www.wwpdb.org/documentation/file-format) - The Protein Data Bank (PDB) format provides a standard representation for macromolecular structure data derived from X-ray diffraction and NMR studies. This representation was created in the 1970's and a large amount of software using it has been written. 
+* [mmCIF](http://mmcif.wwpdb.org/) - [[edam:format_1477](http://edamontology.org/format_1477)] Another format for PDB molecular structures.
+* [PDB](http://www.wwpdb.org/documentation/file-format) - [[edam:format_1476](http://edamontology.org/format_1476)] The Protein Data Bank (PDB) format provides a standard representation for macromolecular structure data derived from X-ray diffraction and NMR studies. This representation was created in the 1970's and a large amount of software using it has been written. 
 
 ### Miscellaneous 
 
 Formats that currently don't have a good section to place them yet (but still very relevant).
 
-* [BIOM](http://biom-format.org/) - The Biological Observation Matrix (BIOM) file format (canonically pronounced biome) is designed to be a general-use format for representing biological sample by observation contingency tables.
+* [BIOM](http://biom-format.org/) - [[edam:format_3746](http://edamontology.org/format_3746)] The Biological Observation Matrix (BIOM) file format (canonically pronounced biome) is designed to be a general-use format for representing biological sample by observation contingency tables.
+* [Pairs](https://github.com/4dn-dcic/pairix/blob/master/pairs_format_specification.md) - The specification for the text contact list file format for chromosome conformation experiments (e.g., Hi-C).
+* [SBML](http://sbml.org/Basic_Introduction_to_SBML) - [[edam:format_2585](http://edamontology.org/format_2585)] Systems Biology Markup Language (SBML), the standard XML format for models of biological processes such as for example metabolism, cell signaling, and gene regulation. 
 
 ## Review Papers and Blogs
 
 This section contains links to relevant review papers and blog posts about bioinformatics formats.
 
-* [hts-specs](http://samtools.github.io/hts-specs/) - From the great Heng Li.
+* [hts-specs](http://samtools.github.io/hts-specs/) - Specs from HTS
 
+## License
+
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)

@@ -29,6 +29,7 @@ format is not available, then it is a great opportunity to contribute to EDAM as
   - [Molecular Structural Data](#molecular-structural-data)
   - [Miscellaneous](#miscellaneous)
 - [Review Papers and Blogs](#review-papers-and-blogs)
+- [License](#license)
 
 ----
 
@@ -125,3 +126,6 @@ This section contains links to relevant review papers and blog posts about bioin
 
 * [hts-specs](http://samtools.github.io/hts-specs/) - Specs from HTS
 
+## License
+
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)

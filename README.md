@@ -27,6 +27,7 @@ format is not available, then it is a great opportunity to contribute to EDAM as
   - [Unaligned Sequencing Data](#unaligned-sequencing-data)
   - [Aligned Sequencing Data](#aligned-sequencing-data)
   - [Molecular Structural Data](#molecular-structural-data)
+  - [Medical Imaging Data](#medical-imaging-data)
   - [Miscellaneous](#miscellaneous)
 - [Review Papers and Blogs](#review-papers-and-blogs)
 - [License](#license)
@@ -111,6 +112,13 @@ Formats associated with storing aligned sequencing data.
 * [CTfile](http://www.3dsbiovia.com/products/collaborative-science/biovia-draw/ctfile-no-fee.html) - The CTfile Formats document fully describes the formats for CTfiles (chemical table files) including: Molfiles, RGfiles, Rxnfiles, SDfiles, RDfiles, XDfiles.
 * [mmCIF](http://mmcif.wwpdb.org/) - [[edam:format_1477](http://edamontology.org/format_1477)] Another format for PDB molecular structures.
 * [PDB](http://www.wwpdb.org/documentation/file-format) - [[edam:format_1476](http://edamontology.org/format_1476)] The Protein Data Bank (PDB) format provides a standard representation for macromolecular structure data derived from X-ray diffraction and NMR studies. This representation was created in the 1970's and a large amount of software using it has been written. 
+
+### Medical Imaging Data
+
+Formats associated with medical imaging data.
+
+* [DICOM](http://dicom.nema.org/) - [[edam:format_3548](http://edamontology.org/format_3548)] Medical image format corresponding to the Digital Imaging and Communications in Medicine (DICOM) standard.
+* [NifTI](http://nifti.nimh.nih.gov/nifti-1) - [[edam:format_3549](http://edamontology.org/format_3549)] Medical image and metadata format of the Neuroimaging Informatics Technology Initiative.
 
 ### Miscellaneous 
 

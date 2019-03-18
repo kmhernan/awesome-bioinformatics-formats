@@ -88,7 +88,7 @@ Formats associated with genotype data.
 * [pileup](http://samtools.sourceforge.net/pileup.shtml) - [[edam:format_3015](http://edamontology.org/format_3015)] Describes the base-pair information at each chromosomal position. This format facilitates SNP/indel calling and brief alignment viewing by eyes.
 * [plink-bed](https://www.cog-genomics.org/plink2/formats#bed) - PLINK binary biallelic genotype table.
 * [plink-ped](https://www.cog-genomics.org/plink2/formats#ped) - [[edam:format_3288](http://edamontology.org/format_3288)] PLINK plain-text genotype format. Mostly has been replaced by bed/bim/fam, but is useful if someone wants to actually look at the SNPs in plain-text since Plink bed is in binary, and also wants to retain more information than from a VCF (eg. additional individual information).
-* [plink2-pgen] (https://www.cog-genomics.org/plink/2.0/formats#pgen) - PLINK2 binary genotype table capable of representing mixed-phase, multiallelic, and mixed-hardcall/dosage/missing genotype data.
+* [plink2-pgen](https://www.cog-genomics.org/plink/2.0/formats#pgen) - PLINK2 binary genotype table capable of representing mixed-phase, multiallelic, and mixed-hardcall/dosage/missing genotype data.
 * [VCF](http://samtools.github.io/hts-specs/VCFv4.3.pdf) - [[edam:format_3016](http://edamontology.org/format_3016)] Variant Call Format.
 
 ### Unaligned Sequencing Data
